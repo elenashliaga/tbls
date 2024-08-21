@@ -1,0 +1,8 @@
+# .tbls.yml
+
+# DSN (Database Source Name) to connect database
+dsn: postgres://raif_partners:raif_partners@localhost:5432/raif_partners?sslmode=disable
+
+# Path to generate document
+# Default is `dbdoc`
+docPath: doc/schema
