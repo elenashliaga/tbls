@@ -5,4 +5,15 @@ dsn: postgres://raif_partners:raif_partners@localhost:5432/raif_partners?sslmode
 
 # Path to generate document
 # Default is `dbdoc`
-docPath: doc/schema
+docPath: doc/schema2
+
+templates:
+  dot:
+    schema: 'output/dot/templates/schema.dot.tmpl'
+    table: 'output/dot/templates/table.dot.tmpl'
+  puml:
+    schema: 'output/plantuml/templates/schema.puml.tmpl'
+    table: 'output/plantuml/templates/table.puml.tmpl'
+  md:
+    index: 'output/md/templates/index.md.tmpl'
+    table: 'output/md/templates/table.md.tmpl'
